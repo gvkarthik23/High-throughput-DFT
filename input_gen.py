@@ -88,4 +88,5 @@ for i in range(7):
             file.write(ofile, str(cellparamx[0]) + '  ' + str(cellparamy[0]) + '  ' + str(cellparamz[0]) + '\n')
             file.write(ofile, str(cellparamx[1]) + '  ' + str(cellparamy[1]) + '  ' + str(cellparamz[1]) + '\n')
             file.write(ofile, str(cellparamx[2]) + '  ' + str(cellparamy[2]) + '  ' + str(cellparamz[2]) + '\n')
+            #file.close(ofile)
             file.close(ofile)
